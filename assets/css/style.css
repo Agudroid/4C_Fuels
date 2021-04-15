@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat Light","Open Sans", sans-serif;
   color: #444444;
 }
 
@@ -589,10 +589,6 @@ section {
   background: url(../img/lucas-benjamin.jpg) no-repeat center bottom;
 }
 
-.section-title {
-  padding-bottom: 40px;
-}
-
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
@@ -615,12 +611,10 @@ section {
 }
 
 .section-title p {
-  margin: 0;
-  margin: 0;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway SemiBold", sans-serif;
   color: #F3B300;
 }
 
@@ -751,7 +745,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/logo.png") center center no-repeat;
+  background: url("../img/logoFinal.png") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
