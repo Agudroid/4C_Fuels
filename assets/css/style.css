@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -118,12 +119,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: #519548;
+  background: #041110;
   height: 90px;
 }
 
 #header.header-scrolled {
-  background-color: #88C425;
+  background-color: #061614;
   height: 60px;
 }
 
@@ -1524,7 +1525,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 footer {
-  background: #88C425;
+  background: #041110;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
