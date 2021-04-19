@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: #041110;
+  background: #88C425 ;
   height: 90px;
 }
 
@@ -382,14 +382,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background-color: #88C425;
+  background-color: #041110;
   position: relative;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background-color: #88C425;
+  background-color: #041110;
   position: absolute;
   bottom: 0;
   top: 0;
