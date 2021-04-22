@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -119,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: #88C425 ;
+  background: #3eaa8c;
   height: 90px;
 }
 
@@ -191,13 +192,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar > ul > li > a:before {
   content: "";
   position: absolute;
-  width: 0;
   height: 2px;
   bottom: 3px;
   left: 30px;
   background-color: #F5B400;
   visibility: hidden;
-  width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -214,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: absolute;
   left: 30px;
-  top: calc(100% + 30px);
+  top: calc(100% + 20px);
   margin: 0;
   padding: 10px 0;
   z-index: 99;
@@ -302,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: #88C425;
+  background-color: #041110;
   transition: 0.3s;
   z-index: 999;
 }
@@ -334,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  background-color: #88C425;
+  background-color: #041110;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -382,14 +381,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background-color: #113f41;
+  background-color: #041110;
   position: relative;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background-color: #113f41;
+  background-color: #041110;
   position: absolute;
   bottom: 0;
   top: 0;
