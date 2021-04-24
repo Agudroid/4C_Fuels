@@ -24,8 +24,9 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway SemiBold", sans-serif;
 }
+
 
 
 /*--------------------------------------------------------------
@@ -52,8 +53,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
+  -webkit-animation: animate-preloader linear infinite;
+  animation: animate-preloader linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -84,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1acc8d;
+  background: #3eaa8c;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -119,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: #88C425 ;
+  background: #3eaa8c;
   height: 90px;
 }
 
@@ -191,13 +192,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar > ul > li > a:before {
   content: "";
   position: absolute;
-  width: 0;
   height: 2px;
   bottom: 3px;
   left: 30px;
   background-color: #F5B400;
   visibility: hidden;
-  width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -214,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: absolute;
   left: 30px;
-  top: calc(100% + 30px);
+  top: calc(100% + 20px);
   margin: 0;
   padding: 10px 0;
   z-index: 99;
@@ -302,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: #88C425;
+  background-color: #061614;
   transition: 0.3s;
   z-index: 999;
 }
@@ -334,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  background-color: #88C425;
+  background-color: #061614;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -382,14 +381,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background-color: #113f41;
+  background-color: #041110;
   position: relative;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background-color: #113f41;
+  background-color: #041110;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -581,7 +580,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -589,33 +588,45 @@ section {
   background: url(../img/lucas-benjamin.jpg) no-repeat center bottom;
 }
 
+.section-title {
+    
+margin-top: 20px;
+}
+
 .section-title h2 {
-  font-size: 14px;
+  font-size: 22px;
   font-weight: 500;
-  padding: 0;
+  padding-top: 0;
   line-height: 1px;
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway SemiBold", sans-serif;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-family: "Raleway SemiBold", sans-serif;
 }
 
 .section-title h2::after {
   content: "";
-  width: 120px;
-  height: 1px;
+  width: 160px;
+  height: 2px;
   display: inline-block;
-  background: #1acc8d;
+  background: #3eaa8c;
   margin: 4px 10px;
+  
 }
 
 .section-title p {
-  font-size: 36px;
+  font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Raleway SemiBold", sans-serif;
-  color: #F3B300;
+  color: #f5b400;
+  padding-top: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -1066,7 +1077,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #012970;
+  color: #1b676b;
   font-weight: 700;
 }
 
@@ -1327,11 +1338,14 @@ section {
   background: #fff;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
+  max-height: 1000px;
+  max-width: 1000px;
 }
 
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+ 
 }
 
 .team .member .member-img:after {
@@ -1519,9 +1533,32 @@ section {
 # Footer
 --------------------------------------------------------------*/
 footer {
-  background: #041110;
+  margin-top: 50px;
   padding: 0 0 30px 0;
-  color: #fff;
-  font-size: 14px;
+  background-color: #041110;
+  }
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9*/
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.img-banner { 
+    max-width: 19%; 
+    height: auto;
+    padding: 10px 40px} 
+
+.text-link:hover {
+    color:#b5e55a
 }
 
