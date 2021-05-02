@@ -965,13 +965,13 @@ margin-top: 20px;
 # Details
 --------------------------------------------------------------*/
 .details .content + .content {
-  margin-top: 100px;
+  margin-top: 15px;
 }
 
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #0F1A17;
+  color: #113f41;
 }
 
 .details .content ul {
@@ -1351,7 +1351,7 @@ margin-top: 20px;
 
 .team {
   background: #fff;
-  padding: 60px 0;
+  padding: 0px 0;
 }
 
 .team .member {
