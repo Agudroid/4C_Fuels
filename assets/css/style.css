@@ -589,7 +589,7 @@ section {
 }
 
 .section-bg {
-  background: url(../img/lucas-benjamin.jpg) no-repeat center bottom;
+  background: url(../img/algae_bg_pale.jpg) no-repeat center;
 }
 
 .section-title {
@@ -605,12 +605,13 @@ margin-top: 20px;
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #1b676b;
   font-family: "Raleway SemiBold", sans-serif;
 }
 
 .section-title h2 {
   font-size: 28px;
+  font-weight: 700;
   font-family: "Raleway SemiBold", sans-serif;
 }
 
@@ -619,7 +620,7 @@ margin-top: 20px;
   width: 160px;
   height: 2px;
   display: inline-block;
-  background: #3eaa8c;
+  background: #1b676b;
   margin: 4px 10px;
   
 }
@@ -1475,8 +1476,8 @@ margin-top: 20px;
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-family: "Raleway Semibold", sans-serif;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 500;
   padding: 0 30px;
@@ -1485,11 +1486,11 @@ margin-top: 20px;
 }
 
 .faq .faq-list .icon-help {
-  font-size: 24px;
+  font-size: 20px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #34e5a6;
+  color: #a3da4b;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -1513,10 +1514,11 @@ margin-top: 20px;
 
 .faq .faq-list a.collapsed {
   color: #343a40;
+  font-size: 20px;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1acc8d;
+  color: #a3da4b;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1588,3 +1590,4 @@ footer {
 margin-down{
     margin-bottom: 20px;
 }
+
