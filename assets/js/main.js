@@ -167,7 +167,7 @@
       preloader.remove()
     });
   }
-  /**
+   /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
@@ -197,7 +197,7 @@
   });
 
   /**
-   * Initiate portfolio lightbox
+   * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfokio-lightbox'
@@ -218,6 +218,7 @@
       clickable: true
     }
   });
+
 
 
   /**

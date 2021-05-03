@@ -1173,7 +1173,7 @@ margin-top: 20px;
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 20%;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -1186,11 +1186,11 @@ margin-top: 20px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #a3da4b;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #a3da4b;
 }
 
 .portfolio-details .portfolio-info {
@@ -1377,7 +1377,7 @@ margin-top: 20px;
   left: 0;
   bottom: 0;
   height: 100%;
-  width: 100%;
+  max-width: 25%;    
   background: url(../img/team-shape.svg) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
