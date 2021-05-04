@@ -609,6 +609,7 @@ margin-top: 20px;
   font-family: "Raleway SemiBold", sans-serif;
 }
 
+@media (min-width: 760px){
 .section-title h2::after {
   content: "";
   width: 160px;
@@ -617,6 +618,7 @@ margin-top: 20px;
   background: #1b676b;
   margin: 4px 10px;
   
+}
 }
 
 
@@ -630,6 +632,8 @@ margin-top: 20px;
   font-family: "Montserrat Light", sans-serif;
 }
 
+
+    
 .section-title h3::after {
   content: "";
   width: 100px;
@@ -637,6 +641,7 @@ margin-top: 20px;
   display: inline-block;
   background: #3eaa8c;
     margin: 4px 10px; }
+    
 
 .section-title p {
   font-size: 22px;
@@ -646,6 +651,7 @@ margin-top: 20px;
   color: #f5b400;
   padding-top: 10px;
 }
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
